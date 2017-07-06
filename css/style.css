@@ -73,7 +73,7 @@ body {
   width: 100px;
 }*/
 
-@media (max-width: 900px) and (min-width: 630px) {
+@media (max-width: 800px) and (min-width: 630px) {
 
   #logo-main {
     font-size: 7vw;
@@ -93,7 +93,35 @@ body {
   }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 1366px) and (min-width: 801px) {
+
+  #logo-main {
+    font-size: 5vw;
+    padding: 7vw 0 3vw 0;
+  }
+
+  .menu-items {
+    width: 30vw;
+    height: 7vh;
+    font-size: 3.5vw;
+    margin: 1vw;
+  }
+
+  .separator {
+    height: 2px;
+    margin: 8vw auto 2vw auto;
+  }
+  .emails {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .emails a {
+    margin: 1vw 1vw;
+    font-size: 1.8vw;
+  }
+}
+
+@media (min-width: 1367px) {
 
   #logo-main {
     font-size: 3vw;
