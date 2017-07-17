@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
   <head>
-    <link rel="stylesheet" href="css/recipe.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="css/out.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="description" content="opis">
     <meta name="keywords" content="key1, key2">
@@ -12,82 +16,74 @@
   <body>
 
     <div class="container-main">
+
       <!-- HEADER -->
       <div class="header">
         <div id="logo-main">
           tastethetoast
         </div>
-      </div>
-      <div class="menu">
-        <a href="#" target="_self">
-          <div class="menu-items">
-            food
-          </div>
-        </a>
-        <a href="#" target="_self">
-          <div class="menu-items">
-            travel
-          </div>
-        </a>
-        <a href="#" target="_self">
-          <div class="menu-items">
-            fashion
-          </div>
-        </a>
-      </div>
-      <div class="search-engine">
-        <span class="search-text">Szukaj...</span>
+        <div class="menu">
+          <a href="#" target="_self">
+            <div class="menu-items">
+              food
+            </div>
+          </a>
+          <a href="#" target="_self">
+            <div class="menu-items">
+              travel
+            </div>
+          </a>
+          <a href="#" target="_self">
+            <div class="menu-items">
+              fashion
+            </div>
+          </a>
+        </div>
+        <div class="search">
+          <input class="search-text" placeholder="Szukaj..."></input>
+        </div>
       </div>
 
       <!-- RECIPE -->
-      <!-- RECIPE HEADLINE -->
-      <div class="recipe-headline">
-        <div>
-          <h3>Lorem ipsum</h3>
-          <hr class="recipe-hr"/>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
-          </p>
+        <!-- RECIPE HEADLINE -->
+        <div class="recipe-headline">
+          <div>
+            <h3 class="recipe-headline__title"></h3>
+            <hr class="recipe-hr"/>
+            <p class="recipe-headline__subtitle"></p>
+          </div>
         </div>
-      </div>
 
-      <!-- IMAGE -->
-      <div class="recipe-img-main">
-        <img src="./images/food.jpg" />
-      </div>
-
-      <!-- TEXT -->
-
-      <div class="recipe-text">
-        <div>
-          <h2>Ingredients</h2>
-          <ul>
-            <li>120 g 2-3 mm wide flat rice sticks</li>
-            <li>60 ml fish sauce</li>
-            <li>60 ml tamarind water (you can use tamarind concentrate, thinned with a little water)</li>
-            <li>60 g palm sugar</li>
-            <li>Pinch of chilli powder, to taste</li>
-            <li>80 ml groundnut or vegetable oil</li>
-            <li>2 cloves of garlic, finely chopped</li>
-            <li>100 g extra-firm tofu, chopped into small cubes</li>
-            <li>8 large prawns</li>
-            <li>2 large eggs, ready cracked</li>
-            <li>25 g preserved salted radish, chopped</li>
-          </ul>
-          <h2>Directions</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+        <!-- IMAGE -->
+        <div class="recipe-img-main">
+          <img src="#" />
         </div>
-      </div>
+
+        <!-- TEXT -->
+        <div class="recipe-text">
+          <div>
+            <h2>Ingredients</h2>
+            <ul class="recipe-text__ingredients"></ul>
+            <h2>Directions</h2>
+            <p class="recipe-text__directions"></p>
+          </div>
+        </div>
+
+      <!-- FOOTER -->
       <div class="footer">
         <div class="emails">
-          <a href="mailto:artur@tastethetoast.eu">artur@tastethetoast.eu</a>
-          <a href="mailto:jarek@tastethetoast.eu">jarek@tastethetoast.eu</a>
+          <a href="mailto:artur@tastethetoast.eu">
+            artur@tastethetoast.eu
+          </a>
+          <a href="mailto:jarek@tastethetoast.eu">
+            jarek@tastethetoast.eu
+          </a>
         </div>
-        <!-- <div class="sm">
-          <img src="./images/instagram_grey.png" class="sm-logo"/>
-        </div> -->
+        <div class="social-media">
+          <a href="https://www.instagram.com/tastethetoast" target="_blank">
+            <img src="./images/instagram_grey.png" class="sm-logo"/>
+          </a>
+        </div>
       </div>
     </div>
 

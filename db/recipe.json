@@ -1,0 +1,44 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Recipe 1",
+      "subtitle": "1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+      "image": "./images/food.jpg",
+      "ingredients": [
+        "1 120 g 2-3 mm wide flat rice sticks",
+        "60 ml fish sauce",
+        "60 ml tamarind water (you can use tamarind concentrate, thinned with a little water)",
+        "60 g palm sugar",
+        "Pinch of chilli powder, to taste",
+        "80 ml groundnut or vegetable oil",
+        "2 cloves of garlic, finely chopped",
+        "100 g extra-firm tofu, chopped into small cubes",
+        "8 large prawns",
+        "2 large eggs, ready cracked",
+        "25 g preserved salted radish, chopped"
+      ],
+      "directions": "1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "id": 2,
+      "title": "Recipe 2",
+      "subtitle": "2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+      "image": "./images/food.jpg",
+      "ingredients": [
+        "2 120 g 2-3 mm wide flat rice sticks",
+        "60 ml fish sauce",
+        "60 ml tamarind water (you can use tamarind concentrate, thinned with a little water)",
+        "60 g palm sugar",
+        "Pinch of chilli powder, to taste",
+        "80 ml groundnut or vegetable oil",
+        "2 cloves of garlic, finely chopped",
+        "100 g extra-firm tofu, chopped into small cubes",
+        "8 large prawns",
+        "2 large eggs, ready cracked",
+        "25 g preserved salted radish, chopped"
+      ],
+      "directions": "2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  ]
+}
